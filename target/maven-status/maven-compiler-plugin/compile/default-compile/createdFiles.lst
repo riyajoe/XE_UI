@@ -1,0 +1,6 @@
+com\expleo\xe\pages\HomePage.class
+com\expleo\xe\configuration\Configure.class
+com\expleo\xe\pagefactory\PageFactory.class
+com\expleo\xe\pages\HomeNavBarConvert.class
+com\expleo\xe\pages\AcceptCookie.class
+com\expleo\xe\configuration\ExtentReporterNG.class

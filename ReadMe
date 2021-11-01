@@ -1,0 +1,77 @@
+# Expleo UI Automation - XE Currency Conversion 
+
+
+References:-
+
+1) https://www.selenium.dev/documentation/en/
+2) https://testng.org/doc/eclipse.html
+3) https://cucumber.io/docs/gherkin/
+4) https://maven.apache.org/plugins/index.html
+
+
+
+# Project Specification 
+
+•	Requirement Specification
+Acceptance test for http://www.xe.com/currencyconverter/
+•  Test Scope
+Verify the acceptance criteria for multiple conversion rates
+•  Test Data 
+5 sets of data are fed in with From currency as INR and To Currency as EUR
+Two forms of data fed in via cucumber feature file and testng data provider
+•  Test Verification
+Result verification done using Assertions
+•  Framework
+* Selenium is used as part of mainframe UI automation of the web page , adopted Page Object Model for better reusability.
+* Chrome/Gecko could be used - Currently has by default chromedriver in project
+* Use of TestNg and Cucumber - Both ways compactible 
+* Reporting Framework- Extent Reports is added , verify results at index.html
+* Logger is used for debugging - Log4j
+
+
+
+
+## Project 
+
+1. Development requirements
+2. Configuring test project
+3. Creating tests
+4. Creating Logging Handler
+5. Running tests 
+6. Project structure
+
+## 1. Driver SetUp Requirements
+
+**Required:** Chrome browser, Chrome Driver(91.0.4472.19), Java Development Kit 15 (JDK11) and maven (3.6.3) should be present on environment in order to develop and/or run the tests.
+
+## 2. Configuring project using maven
+
+Run this command to ensure the code has no errors:
+
+```
+$ mvn clean install
+```
+
+## 3. Creating tests
+
+Option1-TestRunner.Java/cucumbertestng.xml -The test cases are written in gherkin language in feature file at 
+Option2-ValidateHomePage.java/testng.xml - The test case is a testng class for validating the same.
+
+## 4. Running tests
+
+$ mvn clean install 
+ 
+
+## 5. Project structure
+ Using Basic Maven quickstart ArchType
+    /xe/src/main/java
+    configuration -: The file configuration runtime dynamic values are configured here 
+    pagefactory-: contains an Abstract java class named PageFactory with reusable methods.
+    pages -: adheres to SRP principle with each class for each page.
+ 
+    /xe/src/test/java
+    testng- The testclass for validating home page XE.
+    features -: Contains a feature file CurrencyConversion.feature 
+    testrunner -: Contains the TestRunner java class.
+    stepdefintion -:Feature file maps the cases into each steps of this file called stepdefintion.java
+    

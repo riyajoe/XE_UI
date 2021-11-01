@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="98903" started-at="2021-10-20T13:10:16 BST" finished-at="2021-10-20T13:11:55 BST">
+    <groups>
+    </groups>
+    <test name="XETest" duration-ms="98903" started-at="2021-10-20T13:10:16 BST" finished-at="2021-10-20T13:11:55 BST">
+      <class name="com.expleo.xe.testng.ValidateHomePage">
+        <test-method status="PASS" signature="testHomeObjects(java.lang.String)[pri:0, instance:com.expleo.xe.testng.ValidateHomePage@50b494a6]" name="testHomeObjects" duration-ms="21887" started-at="2021-10-20T13:10:16 BST" data-provider="sendData" finished-at="2021-10-20T13:10:38 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeObjects -->
+        <test-method status="PASS" signature="testHomeObjects(java.lang.String)[pri:0, instance:com.expleo.xe.testng.ValidateHomePage@50b494a6]" name="testHomeObjects" duration-ms="19161" started-at="2021-10-20T13:10:38 BST" data-provider="sendData" finished-at="2021-10-20T13:10:57 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeObjects -->
+        <test-method status="PASS" signature="testHomeObjects(java.lang.String)[pri:0, instance:com.expleo.xe.testng.ValidateHomePage@50b494a6]" name="testHomeObjects" duration-ms="19606" started-at="2021-10-20T13:10:57 BST" data-provider="sendData" finished-at="2021-10-20T13:11:17 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeObjects -->
+        <test-method status="PASS" signature="testHomeObjects(java.lang.String)[pri:0, instance:com.expleo.xe.testng.ValidateHomePage@50b494a6]" name="testHomeObjects" duration-ms="18530" started-at="2021-10-20T13:11:17 BST" data-provider="sendData" finished-at="2021-10-20T13:11:36 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeObjects -->
+        <test-method status="PASS" signature="testHomeObjects(java.lang.String)[pri:0, instance:com.expleo.xe.testng.ValidateHomePage@50b494a6]" name="testHomeObjects" duration-ms="19640" started-at="2021-10-20T13:11:36 BST" data-provider="sendData" finished-at="2021-10-20T13:11:55 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeObjects -->
+      </class> <!-- com.expleo.xe.testng.ValidateHomePage -->
+    </test> <!-- XETest -->
+  </suite> <!-- Suite -->
+</testng-results>
